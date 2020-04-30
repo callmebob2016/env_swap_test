@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aef31dc490432ef0d791424a111ae9f4",
+    "content-hash": "78aa99f49e68b6761c2c6ffcc7df80df",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2519,6 +2519,57 @@
                 "http"
             ],
             "time": "2019-10-10T14:25:59+00:00"
+        },
+        {
+            "name": "codeception/module-symfony",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Codeception/module-symfony.git",
+                "reference": "db1a281f183afbc63ba70fb16dee8730cc8875ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Codeception/module-symfony/zipball/db1a281f183afbc63ba70fb16dee8730cc8875ba",
+                "reference": "db1a281f183afbc63ba70fb16dee8730cc8875ba",
+                "shasum": ""
+            },
+            "require": {
+                "codeception/codeception": "^4.0",
+                "codeception/lib-innerbrowser": "^1.0",
+                "php": ">=5.6.0 <8.0"
+            },
+            "require-dev": {
+                "codeception/module-asserts": "dev-master | ^1.0",
+                "codeception/module-doctrine2": "dev-master | ^1.0",
+                "codeception/module-phpbrowser": "dev-master | ^1.0",
+                "codeception/module-rest": "dev-master | ^1.0",
+                "codeception/module-sequence": "dev-master | ^1.0",
+                "codeception/util-robohelpers": "dev-master",
+                "vlucas/phpdotenv": "^3.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bodnarchuk"
+                }
+            ],
+            "description": "Codeception module for Symfony framework",
+            "homepage": "http://codeception.com/",
+            "keywords": [
+                "codeception",
+                "symfony"
+            ],
+            "time": "2020-04-05T14:10:36+00:00"
         },
         {
             "name": "codeception/phpunit-wrapper",
