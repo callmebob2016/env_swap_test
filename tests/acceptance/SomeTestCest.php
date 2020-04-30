@@ -8,7 +8,7 @@ class SomeTestCest
     {
         $I->amOnPage('/delicious/gnome');
         $I->seeResponseCodeIs(200);
-        $I->dontSee('test');
-        $I->see('dev');
+        $I->dontSee('dev');
+        $I->see('test');
     }
 }
