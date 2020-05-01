@@ -2,13 +2,13 @@
 
 namespace App\Tests;
 
-class SomeTestCest
+class DefaultCest
 {
-    public function tryToTest(AcceptanceTester $I)
+    public function tryToTest(FunctionalTester $I)
     {
         $I->amOnPage('/delicious/gnome');
         $I->seeResponseCodeIs(200);
-        $I->dontSee('dev');
         $I->see('test');
+        $I->dontSee('dev');
     }
 }
